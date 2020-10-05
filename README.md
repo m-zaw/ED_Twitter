@@ -6,5 +6,8 @@ In this project, we benefitted from some Natural Language Processing (NLP) techn
 
 1.Extracting Covid-19 related keywords:
 Talking it through with an expert, the following Wikipedia pages were used to extracted keywords:<br>
-*COVID-19 pandemic in the United Kingdom(https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_United_Kingdom)
-
+* [COVID-19 pandemic in the United Kingdom](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_United_Kingdom)
+* [NHS Test and Trace](https://en.wikipedia.org/wiki/NHS_Test_and_Trace)
+* [Coronavirus disease 2019](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)
+2.Bot detection:
+To detect tweets written by bots, we manually labelled a subset of pulled data. This dataset is accessible [here](https://github.com/ehsantaati/Twitter_PHD/blob/master/data/raw/tweet_df.csv): 
