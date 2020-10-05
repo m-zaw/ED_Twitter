@@ -18,6 +18,9 @@ According to transfer learning rules, we retrained a pre-trained version of BERT
 
 4.Topic Modelling:<br>
 Conducting LDA on each set of tweets, we extracted some topics with the highest contributions of each emotion set. These topics are being used for further interpretation to identify sets of triggers in each emotion set.
-## Environment:
+## [Environment](https://github.com/ehsantaati/Twitter_PHD/blob/master/requirements.yml):
 * Pytorch
 * Sckitlearn
+## References:
+* https://huggingface.co/bert-base-uncased
+* http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html
