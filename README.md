@@ -14,7 +14,7 @@ Talking it through with an expert, the following Wikipedia pages were used to ex
 To detect tweets written by bots, we manually labelled a subset of pulled data. This dataset is accessible [here](https://github.com/ehsantaati/Twitter_PHD/blob/master/data/raw/tweet_df.csv)<br>
 
 **3.Emotion Detection:**<br>
-According to transfer learning rules, we retrained a pre-trained version of BERT ([“bert-large-uncased”](https://huggingface.co/bert-base-uncased)) in Pytorch on [WASSA-2017](http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html)dataset.<br> 
+According to transfer learning rules, we retrained a pre-trained version of BERT ([“bert-large-uncased”](https://huggingface.co/bert-base-uncased)) in Pytorch on [WASSA-2017](http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html) dataset.<br> 
 
 **4.Topic Modelling:**<br>
 Conducting LDA on each set of tweets, we extracted some topics with the highest contributions of each emotion set. These topics are being used for further interpretation to identify sets of triggers in each emotion set.
