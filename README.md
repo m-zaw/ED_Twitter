@@ -19,7 +19,7 @@ To detect tweets written by bots, we manually labelled a subset of pulled data. 
 **3.Emotion Detection:**<br>
 According to transfer learning rules, we retrained a pre-trained version of BERT ([“bert-large-uncased”](https://huggingface.co/bert-base-uncased)) in Pytorch on [WASSA-2017](http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html) dataset.<br> 
 
- *Weights of trained models are acessible [here](https://drive.google.com/drive/folders/1T2HRbHJRLrc4sie3aekrkd_VYDQiSqz9?usp=sharing)
+Weights of trained models are acessible [here.](https://drive.google.com/drive/folders/1T2HRbHJRLrc4sie3aekrkd_VYDQiSqz9?usp=sharing)
 
 ## [Environment](https://github.com/ehsantaati/Twitter_PHD/blob/master/requirements.yml):
 * Pytorch
