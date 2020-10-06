@@ -11,7 +11,7 @@ Talking it through with an expert, the following Wikipedia pages were used to ex
 * [Coronavirus disease 2019](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)<br>
 
 **2.Bot detection:**<br>
-To detect tweets written by bots, we manually labelled a subset of pulled data. This dataset is accessible [here](https://github.com/ehsantaati/Twitter_PHD/blob/master/data/raw/tweet_df.csv)<br>
+To detect tweets written by bots, we manually labelled a subset of pulled data. This dataset is accessible [here.](https://github.com/ehsantaati/Twitter_PHD/blob/master/data/raw/tweet_df.csv)<br>
 
 **3.Emotion Detection:**<br>
 According to transfer learning rules, we retrained a pre-trained version of BERT ([“bert-large-uncased”](https://huggingface.co/bert-base-uncased)) in Pytorch on [WASSA-2017](http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html) dataset.<br> 
