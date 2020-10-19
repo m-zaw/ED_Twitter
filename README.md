@@ -24,6 +24,7 @@ Weights of trained models are acessible [here.](https://drive.google.com/drive/f
 ## [Environment](https://github.com/ehsantaati/Twitter_PHD/blob/master/requirements.yml):
 * Pytorch
 * Sckitlearn
+* To install required packeges: conda env create -f requirements.yml
 
 ## References:
 * https://huggingface.co/bert-base-uncased
