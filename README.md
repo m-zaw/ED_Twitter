@@ -21,7 +21,7 @@ According to transfer learning rules, we retrained a pre-trained version of BERT
 
 Weights of trained models are acessible [here.](https://drive.google.com/drive/folders/1T2HRbHJRLrc4sie3aekrkd_VYDQiSqz9?usp=sharing)
 
-## [Environment](https://github.com/ehsantaati/Twitter_PHD/blob/master/requirements.yml):
+## Environment:
 * Pytorch
 * Sckitlearn
 * To install required packeges:`pip install -r requirements.txt`
